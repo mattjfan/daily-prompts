@@ -6,7 +6,13 @@
 }
 
 body{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Merriweather', serif;
+  color:var(--color-bg);
+}
+
+.illustration{
+    width:70%;
+    margin:5%;
 }
 
 .bg-custom{
@@ -32,7 +38,7 @@ body{
 .hoverable:hover { transform: scale(1.1); }
 
 .pill-button{
-  font-size:2rem;
+  font-size:1.5rem;
   padding:1rem;
   font-weight:bold;
   border-radius: 500px;
