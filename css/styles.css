@@ -15,6 +15,23 @@ body{
     margin:5%;
 }
 
+.fill-page{
+  width:100vw;
+  height:100vh;
+}
+
+.center-justify{
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-align-items: center;
+  -webkit-flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -webkit-justify-content: center;
+  display: -webkit-flex;
+}
+
+.center-column{
+  width:50%;
+}
 .bg-custom{
   background-color: var(--color-bg);
   color:var(--color-text);
