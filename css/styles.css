@@ -1,0 +1,43 @@
+:root{
+  --color-bg:#6c5ce7;
+  --color-text:white;
+  --color-1:blue;
+  --color2:blue;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+.bg-custom{
+  background-color: var(--color-bg);
+  color:var(--color-text);
+}
+
+.fill-viewport{
+  min-height:100vh;
+}
+
+.centered{
+  text-align:center;
+}
+.row{
+  display:flex;
+  text-align:center;
+}
+
+.hoverable{
+  transition: all .2s ease-in-out;
+}
+.hoverable:hover { transform: scale(1.1); }
+
+.pill-button{
+  font-size:2rem;
+  padding:1rem;
+  font-weight:bold;
+  border-radius: 500px;
+  background-color:var(--color-text);
+  color:var(--color-bg);
+  border:none;
+  margin:.5rem;
+}
