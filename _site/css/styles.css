@@ -12,7 +12,7 @@ body{
 }
 
 .sans-serif{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -28,6 +28,9 @@ body{
     width:70%;
     margin:5%;
 }
+.illustration2 {
+    width:50%;
+}
 
 svg path {
     fill: var(--color-bg);
@@ -36,6 +39,15 @@ svg path {
 .fill-page{
   width:100vw;
   height:100vh;
+}
+.half-page{
+  width:100vw;
+  height:50vh;
+}
+
+.quarter-page{
+  width:100vw;
+  height:50vh;
 }
 
 .center-justify{
@@ -55,6 +67,17 @@ svg path {
 .bg-custom{
   /*background-color: var(--color-bg);*/
   background: linear-gradient(90deg, var(--color-bg), var(--color-2));
+  color:var(--color-text);
+}
+
+.bg-flat1{
+  /*background-color: var(--color-bg);*/
+  background-color: var(--color-bg);
+  color:var(--color-text);
+}
+.bg-flat2{
+  /*background-color: var(--color-bg);*/
+  background-color: var(--color-2);
   color:var(--color-text);
 }
 
@@ -84,11 +107,15 @@ svg path {
   padding:1rem;
   font-weight:bold;
   border-radius: 500px;
-  background-color:var(--color-text);
-  color:var(--color-bg);
   border:none;
   margin:.5rem;
 }
+
+.bg-negative{
+  background-color:var(--color-text);
+  color:var(--color-bg);
+}
+
 .text-transparent{
   background: linear-gradient(90deg, var(--color-bg), var(--color-2));
   -webkit-text-fill-color: transparent;
@@ -102,4 +129,21 @@ svg path {
 .footer{
   padding-left: 10%;
   padding-right:10%;
+  margin-top:-80px;
+}
+@media only screen and (max-width: 768px) {
+  .footer{
+    margin-top: -10px;
+  }
+}
+.link-box {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  transition: all .2s ease-in-out;
+}
+
+.link-box:hover {
+  transform: scale(1.1);
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit;
 }
