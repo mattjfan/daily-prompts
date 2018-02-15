@@ -135,6 +135,9 @@ svg path {
   .footer{
     margin-top: -10px;
   }
+  .mobile-margin{
+    margin-bottom: 10%;
+  }
 }
 .link-box {
   color: inherit; /* blue colors for links too */
@@ -146,4 +149,8 @@ svg path {
   transform: scale(1.1);
   color: inherit; /* blue colors for links too */
   text-decoration: inherit;
+}
+
+.divider{
+  /*background-color:var(--color-bg);*/
 }
